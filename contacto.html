@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varela IT</title>
+    <link rel="icon" href="./img/logo_small_icon_only_inverted.png"><!-- favicon -->
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <header>
+        <div id="contenedor-header">  
+            <a href="./index.html"><img src="./img/logo_small.png" alt="Varela IT" width="25%"></a>  
+            <div id="divBuscador">
+                <form>
+                    <input id="inputBuscador" type="text">
+                    <button>Buscar</button>
+                </form>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/"><img src="./img/icon-instagram.png" alt=""></a>
+                <a href="https://www.facebook.com/"><img src="./img/icon-facebook.png" alt=""></a>
+                <a href="https://web.whatsapp.com/"><img src="./img/icon-whatsApp.png" alt=""></a>
+            </div>
+        </div>
+        <div>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./productos.html">Productos</a>
+                <a href="./servicios.html">Servicios</a>
+                <a href="./nosotros.html">Nosotros</a>
+                <a href="./mi-cuenta.html">Mi Cuenta</a>
+                <a id="contactoButton" href="./contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <main id="mainContacto">
+        <div class="rellenoContacto"></div>
+        <div id="contenedorContacto">
+            <form id="formContacto">
+                <div id="contenedorInput">
+                    <label>Nombre</label><input required type="text" id="txtNombre">
+                    <br>
+                    <label>Apellido</label><input required type="text" id="txtApellido">
+                    <br>
+                    <label>Correo Electrónico</label><input required type="email" id="txtEmail">
+                    <br>
+                    <label>Teléfono</label><input required type="tel" id="txtTelefono">
+                    <br>
+                    <label>Consulta</label><input required type="text" id="txtConsulta">
+                    <br>
+                    <input type="submit" id="btnEnviar" value="Enviar" onclick=faltaCompletar()></input>
+                </div>
+            </form>
+        </div>
+        <div class="rellenoContacto"></div>
+    </main>
+    <footer>
+        <div id="contenedor-footer">
+            <div class="footer">
+                <ul>
+                    <li>Atención presencial</li>
+                    <a href="https://www.google.com/maps/search/siempre+viva+1234,+florencio+varela/@-34.7955708,-58.2881559,14z/data=!3m1!4b1"><li>Siempre Viva 1234, Florencio Varela</li></a>
+                    <li>0800 - 111 -1234</li>
+                    <li>WhatsApp: (11)2233-2233</li>
+                </ul>
+            </div>
+            <div class="footer">
+                <ul>
+                    <a href="#"><li>Políticas de Garantía</li></a>
+                    <a href="#"><li>Politicas de privacidad</li></a>
+                    <a href="#"><li>Botón de arrepentimiento</li></a>
+                    <li>varelait@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer">
+                <ul>
+                    <li>Trabajá con nosotros</li>
+                    <a href="#"><li>Completá el formulario</li></a>
+                </ul>
+            </div>
+        </div>
+        <div >
+            <div id="finFooter">
+                <p>© Varela IT - Todos los Derechos Reservados</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
