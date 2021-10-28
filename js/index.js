@@ -54,3 +54,31 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+function mouseOverGabinete(){
+    let image = document.getElementById("imgGabinete");
+    image.src = "./img/producto-gabinete-mouse-over.jpg"
+}
+function mouseOutGabinete(){
+    document.getElementById("imgGabinete").src ="./img/producto-gabinete.png"
+}
+function mouseOverMonitor(){
+    let image = document.getElementById("imgMonitor");
+    image.src = "./img/producto-monitor-mouse-over.jpg"
+}
+function mouseOutMonitor(){
+    document.getElementById("imgMonitor").src ="./img/producto-monitor.png"
+}
+function mouseOverMyT(){
+    let image = document.getElementById("imgTecladoMouse");
+    image.src = "./img/producto-mouse-teclado-mouse-over.jpg"
+}
+function mouseOutMyT(){
+    document.getElementById("imgTecladoMouse").src ="./img/producto-mouse teclado.jpg"
+}
+function mouseOverHeadset(){
+    let image = document.getElementById("imgHeadset");
+    image.src = "./img/producto-headset-mouse-over.jpg"
+}
+function mouseOutHeadset(){
+    document.getElementById("imgHeadset").src ="./img/producto-headset.png"
+}

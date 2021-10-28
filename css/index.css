@@ -5,7 +5,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;  
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 10rem; 
+  padding-right: 10rem; 
 }
 
 nav{
@@ -30,8 +33,26 @@ body{
   font-family: calibri;
 }
 
+/* ---------------------------------------------------------------------------- */
 
 /* SECTIONS */
+
+.contSeccion{
+  display: flex;
+  padding: 5rem;
+  justify-content: space-around;
+}
+
+.servicios{
+  font-size: 1.2rem;
+  font-family: calibri;
+}
+
+.info{
+  font-size: 1.2rem;
+  font-family: calibri;
+  margin: 5rem;
+}
 
 #contenedorSecciones{
   display: flex;
@@ -71,15 +92,7 @@ button{
   cursor: pointer;
 }
 
-
-
-/*
-#btnEnviar{
-  width: 6rem;
-  height: 2rem;
-}
-*/
-
+/* ----------------------------------------------------------------- */
 
 /* FOOTER */
 
@@ -104,7 +117,6 @@ button{
 
 #slide{
   height: 600px;
-  background-color: rgb(20, 137, 141);
 }
 
 /* Slide */ 
@@ -204,6 +216,8 @@ button{
   to {opacity: 1}
 }
 
+/* ---------------------------------------------------------------------------------- */
+
 /* Contacto */ 
 
 #mainContacto{
@@ -268,6 +282,7 @@ form input[type="submit"]:hover{
   height: 1.4rem;
 }
 
+/* ---------------------------------------------------------------------------- */
 
  /* Nosotros */ 
 
@@ -276,3 +291,23 @@ form input[type="submit"]:hover{
    font-family: calibri;
    margin: 5rem;
  }
+
+ /* ---------------------------------------------------------------------------- */
+
+ /* Productos */ 
+
+
+ #contenedorProductos{
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+  }
+
+  #contenedorProductos img{
+    display: flex;
+    max-width: 20%;
+    border: solid grey;
+    margin: 2rem;
+   }
+
+ 
